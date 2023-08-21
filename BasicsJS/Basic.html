@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+</head>
+<body>
+
+    <h1>hello this is yogesh joga</h1>
+    <script>  
+    // variables declartion  let var const                                                                                                                                                                                                                                                                                                                                                              
+        let a = 10
+        var b =100
+        const c =200
+
+        let d = a*b-c
+
+        document.write(d)
+
+        // datatypes 
+
+
+        /*  if
+         else
+         else if
+         break
+         continue
+         for 
+         while 
+         for in
+         for of
+         switch
+        */
+
+         // conditions 
+         let num1 = 20
+         let num2 = 30
+
+         if(num1 == num2){
+            document.write("<h2>num1 and num2 are equals</h2>")
+         }else if(num1 + num2 % 2 == 1){
+            document.write("<h2>its is a even number</h2>")
+         }else{
+            document.write("<h1>error</h1>")
+         }
+     
+
+
+        // for loop
+        for(let i=0; i<=100; i++){
+            document.write(i + "<br>")
+        }
+
+        let cond = 29
+        let i =0
+
+        // while loop
+        while(i<=cond){
+            document.write("hello::")
+            i++
+        }
+
+        // object
+        let myObj = {"myname": "yogesh",
+                      "myage" : 25,
+                    "edu":"btech"}
+
+        let myarr = [123,1232,1232,1232,4234,143,134,1,341,5,15,15,15,5]
+
+        // for in and for of itrator
+
+        // for in 
+  
+        // in for objects okay
+        for(x  in myObj){
+            document.write(x + " : "+ myObj[x])
+        }
+       
+        // of for arrays 
+        for(x of myarr){
+            document.write(x + "<br>")
+        }
+
+
+        // break and contiune
+        for( y of myarr){
+            if(y == 143){
+                continue
+            }else if (y == 5){
+                break
+            }
+            document.write(y +"<br>")
+        }
+
+
+        // switch
+        let inp = prompt("enter a number");
+        
+        let inp1 = promt("enter a number2");
+        let sw = promt("enter option +-");
+       
+        switch(sw){
+            case "+" : {
+               // return inp + inp1
+                document.write(inp + inp1)
+                break;
+            }
+            case "-" : {
+                document.write(inp - inp1)
+                break;
+            }
+        }
+        
+
+    </script>
+    <h1>hello ending the yogesh html tag</h1>
+    
+</body>
+</html>

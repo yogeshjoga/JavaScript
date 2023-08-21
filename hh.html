@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h2>Add a new element at the end of the body using the <i>document.body</i> in JavaScript</h2>
+    <button onclick="addNewElement()"> Add new element</button>
+    <button onclick="removeNewElement()">Remove new element</button>
+
+    <p>Click on the above button to add a new element at the end of the body!</p>
+
+
+    <script>
+
+        // for adding element
+        function addNewElement() {
+            const newElement = document.createElement('p')
+            newElement.setAttribute("id","newEle")
+            newElement.innerHTML = 'It is a new element'
+            document.body.appendChild(newElement)
+        }
+
+        // for removing elements
+        function removeNewElement(){
+            const chil = document.getElementById("newEle")
+            chil.parentNode.removeChild(chil)
+        }
+
+    </script>
+
+
+
+
+
+</body>
+</html>
