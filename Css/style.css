@@ -1,0 +1,19 @@
+h1{
+   color: red;
+    text-transform: uppercase;
+    text-decoration: plum underline wavy;
+    font-family: monospace;
+    text-align: center;
+    font-weight:100;
+    font-size: 40px;
+    letter-spacing: 20px;
+
+}
+}
+button{
+  color: purple;
+}
+p{
+  color: blue;
+  background-color : yellow;
+}
