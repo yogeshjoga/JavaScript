@@ -80,3 +80,53 @@ h1{
 - Pseudo elements ::
 - Pseudo Classes :
 - CSS Specificity
+- CSS Inheritance
+
+
+
+
+# Box model
+- Width & height
+- Border
+- Padding
+- Margin
+- Border-radius
+- Display property
+- Units - percentage, EMS & REMS
+
+
+
+
+
+
+
+
+
+# Other Assorted Useful CSS properties
+
+
+- Opacity & Alpha Channel
+- Transitions
+- Google Fonts
+- Position property
+- Transforms
+- The full story On the Background Property
+
+
+
+
+
+
+
+# Responsive CSS & FlexBox
+
+
+- Focus on Concepts, not memorizing the properties
+- Flex Shorthand
+- Flex-wrap
+- Flex-basis, grow and shrink
+- align-items
+- Align-content and align-self
+- justify-content
+- flex-Direction
+- media Queries ***
