@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 🍱 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151b29;
+    height: 100vh;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    transition: 1s;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 12%;
+}
+.circle:hover{
+    border-radius: 50%;
+    background-color:orangered;
+    cursor: pointer;
+}
+
+.button{
+    background: none;
+    color:orangered;
+    border: 2px solid orangered;
+    padding: 1em 2em;
+    font-size: 1em;
+}
+.button:hover{
+    border-color: yellow;
+    color: white;
+    box-shadow:  0 0.5em  1px -0.4em yellow;
+    transform: translateY(-0.35em);
+    cursor: pointer;
+}
