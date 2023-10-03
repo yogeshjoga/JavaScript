@@ -9,23 +9,34 @@ h1{
 .container{
     margin: auto;
     width: 80%;
-    height: 500px;
+    height: 1600px;
     background-color: cadetblue;
     border: 5px solid white;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center ;
 }
-#main div{
+.box{
     width: 200px;
-    height: 200;
+    height: 200px;
 }
 .box1{
-    background-color: #6499E9;
+    background-color: #2E4374;
 }
 .box2 {
-    background-color: #9EDDFF;
+    background-color: #4B527E;
 }
-.box1 {
-    background-color: #6499E9;
+.box3 {
+    background-color: #7C81AD;
 }
-.box1 {
-    background-color: #9EDDFF;  
+.box4 {
+    background-color: #E5C3A6;  
+}
+.box5 {
+    background-color:#4B527E;
+}
+.box6 {
+    background-color: #7C81AD;
 }
